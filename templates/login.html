@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/assets/css/login.css">
+	<script defer src="/packages/login.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link rel="stylesheet" href="/css/login.css">
+	<title>Login</title>
+</head>
+<body>
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="/php/Post.php" method="post">
+				<h1>Create Account</h1>
+				<div class="social-container">
+					<a href="https://www.google.com" class="social"><i class="fa-brands fa-google"></i></a>
+					<a href="https://www.facebook.com" class="social"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://www.linkedin.com" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your email for registration</span>
+				<input type="text" name="Namen" placeholder="Name" />
+				<input type="email" name="Emailn" placeholder="Email" />
+				<input type="password" name="Passwordn" placeholder="Password" />
+				<button>Sign Up</button>
+				<a href="/Serene 7/templates/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Home</a>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form id="loginForm" action="/php/Postp.php" method="post">
+				<h1>Login</h1>
+				<div class="social-container">
+					<a href="https://www.google.com" class="social"><i class="fa-brands fa-google"></i></a>
+					<a href="https://www.facebook.com" class="social"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://www.linkedin.com" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your account</span>
+				<input type="email" name="Emailp" placeholder="Email" />
+				<input type="password" name="Passwordp" placeholder="Password" />
+				<a href="#">Forgot your password?</a>
+				<button type="submit">Sign In</button>
+				<a href="/Serene 7/templates/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Home</a>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Start Your Journey</h1>
+					<p>To keep connected with us please login with your personal info</p>
+					<button class="ghost" id="signIn"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Account Not Created!</h1>
+					<p>Enter your personal details and start journey with us</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>
+			Created by <i class="fa fa-heart"></i> by
+			<a target="_blank" href="http://127.0.0.1:5502/business.html">SDD</a>
+			<a target="_blank" href="http://127.0.0.1:5502/business.html">here</a>.
+		</p>
+	</footer>
+
+	<script>
+		$(document).ready(function() {
+			$("#loginForm").submit(function(event) {
+				event.preventDefault(); // Prevent the default form submission
+
+				var form_data = $(this).serialize(); // Serialize form data
+
+				$.ajax({
+					type: "POST",
+					url: $(this).attr("action"),
+					data: form_data,
+					dataType: 'json',
+					success: function(response) {
+						// Handle the response here and display an alert or perform actions
+						if (response.message) {
+							alert(response.message);
+							window.location.href = "/Serene 7/templates/index.html";
+						} else if (response.error) {
+							alert(response.error);
+						}
+					},
+					error: function() {
+						alert("Error: Unable to process request.");
+					}
+				});
+			});
+		});
+
+		window.watsonAssistantChatOptions = {
+			integrationID: "ac4c2ca9-4dfe-4ab7-b01f-44a56c00a972", // The ID of this integration.
+			region: "us-south", // The region your integration is hosted in.
+			serviceInstanceID: "6de4f4d3-c21a-49ea-9260-2ac61cd8565e", // The ID of your service instance.
+			onLoad: async (instance) => { await instance.render(); }
+		  };
+		  setTimeout(function(){
+			const t=document.createElement('script');
+			t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+			document.head.appendChild(t);
+		  });
+	</script>
+</body>
+</html>

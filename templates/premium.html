@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/intro.css">
+    <link rel="stylesheet" href="/css/banner.css">
+    <!--Svg Css Start-->
+    <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!--Svg Css End-->
+    <link rel="stylesheet" href="/css/chill.css">
+    <link rel="stylesheet" href="/css/star.css">
+    <link rel="stylesheet" href="/css/testimonial.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>Serene</title>
+</head>
+<body>
+    <!-------------navbar start------------->
+    <nav class="navbar">
+       <ul>
+            <div onclick = "reh()" href="Serene 7/templates/index.html" class="logo">Serene</div> 
+            <li><a href="/Serene 7/templates/sleep.html" class="a1">Sleep</a></li>
+            <li><a href="/Serene 7/templates/divedeep.html" class="a2">Dive Deep</a></li>
+            <li><a href="/Serene 7/templates/serenebusiness.html" class="a3">Serene Business</a></li>
+            <li><a href="/Serene 7/templates/serenehealth.html" class="a4">Serene Health</a></li>
+            <li><a href="/Serene 7/templates/premium.html" class="a5">Premium</a></li>
+            <li><a href="/Serene 7/templates/blog.html" class="a6">Articles & Blogs</a></li>
+            <li><a href="/Serene 7/templates/login.html" class="a7">Log In</a></li>
+            <li><a href="/Serene 7/templates/login.html" class="button" onclick="meh()">Try Serene For Free</a></li>
+             <div id="progress-container">
+                <div id="progress-bar" style="background-color: #ca7835;"></div>
+              </div>
+        </ul>
+    </nav>
+    <!-------------navbar end------------->
+
+  <div style="padding: 20px; margin: 20px;">
+    <h1 style="font-size: 36px; color: #333;">Concentrate yourself by using this simulation!</h1>
+    <h2 style="font-size: 24px; color: #666;">This helps in letting you focus and get engaged in something to help your ADHD or even for fun! There is no restriction.</h2>
+  </div>
+
+    <iframe src="/The-Spirit-master/app/index.html" width="100%" height="650" frameborder="0"></iframe>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syncfusion Scheduler Example</title>
+  <!-- Syncfusion CSS -->
+  <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet">
+  <!-- Syncfusion JS libraries -->
+  <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
+  <!-- Syncfusion Scheduler styles -->
+  <style>
+    /* Add any custom styles here */
+    .schedule-container {
+      max-width: 800px;
+      margin: auto;
+      margin-top: 50px;
+    }
+  </style>
+
+
+  <div style="padding: 20px; margin: 20px;">
+    <h1 style="font-size: 36px; color: #333;">Look for the event details, meetings and follow ups here!</h1>
+    <h2 style="font-size: 24px; color: #666;">This place lets you see the events, meetings and daily follow ups, you can also edit it for your instance or even add accordingly!</h2>
+  </div>
+  <div id="scheduler" class="schedule-container"></div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize Scheduler
+      var scheduleObj = new ej.schedule.Schedule({
+        height: '650px',
+        selectedDate: new Date(2024, 0, 10),
+        eventSettings: {
+          dataSource: [
+            // Your event data here
+            { Id: 1, Subject: 'Meeting', StartTime: new Date(2024, 0, 10, 10, 0), EndTime: new Date(2024, 0, 10, 12, 0) },
+            { Id: 2, Subject: 'Conference', StartTime: new Date(2024, 0, 11, 12, 0), EndTime: new Date(2024, 0, 11, 14, 0) },
+            { Id: 2, Subject: 'Daily Follow up one', StartTime: new Date(2024, 0, 12, 13 , 0), EndTime: new Date(2024, 0, 12, 16, 0) },
+            { Id: 2, Subject: 'Daily Follow up two', StartTime: new Date(2024, 0, 13, 14 , 0), EndTime: new Date(2024, 0, 11, 13, 0) }
+            // Add more events as needed
+          ]
+        },
+        views: [
+          'Day', 'Week', 'WorkWeek', 'Month', 'Agenda'
+        ],
+        // Enable drag and drop
+        allowDragAndDrop: true
+      });
+
+      // Render Scheduler
+      scheduleObj.appendTo('#scheduler');
+
+      // Initialize DatePicker
+
+
+      // Render DatePicker
+      datePicker.appendTo('#datePicker');
+    });
+  </script>
+
+  <div id="datePicker" style="margin-top: 20px;"></div>
+
+
+
+    <!-------------footer section start------------->
+
+    <footer class="text-gray-600 body-font" id="foot-5">
+        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4" id="foot-6">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">COMPANY</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">About</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Carrers</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Press</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Blog</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4" id="foot-6">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">OFFERS</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Buy a Gift</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Redeem a Gift
+                </a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Family Plan</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Calm Health</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4" id="foot-6">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">HELP</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">FAQ</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Accessibility Statement</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Cookies</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4" id="foot-6">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Address</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Adani Institue of Infrastructure Engineering</a>
+                </li>
+              </nav>
+            </div>
+            
+          </div>
+        </div>
+        <div class="bg-gray-100">
+          <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p class="text-gray-500 text-sm text-center sm:text-left">Copyright © 2023 Serene. All rights reserved
+
+              
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="non+6e"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+      <!-------------footer section end------------->
+
+
+
+
+
+    
+
+
+
+    
+
+    <!-------------script start------------->
+    <!-------------navbar script start------------->
+    <script src="/packages/navbar.js"></script>
+    <!-------------navbar script end------------->
+
+    <!-------------chill section script start------------->
+    <script src="/packages/chill.js"></script>
+    <!-------------chill section script end------------->
+    <script src="/packages/slide.js"></script>
+    <script>
+       
+   function reh(){
+      window.location.href = "index.html";
+    }
+      document.addEventListener("DOMContentLoaded", function() {
+        const progressBar = document.getElementById("progress-bar");
+      
+        window.addEventListener("scroll", function() {
+          const scrollY = window.scrollY;
+          const windowHeight = window.innerHeight;
+          const documentHeight = document.documentElement.scrollHeight;
+      
+          const scrollPercentage = (scrollY / (documentHeight - windowHeight)) * 100;
+          progressBar.style.width = scrollPercentage + "%";
+        });
+      });
+
+       window.watsonAssistantChatOptions = {
+    integrationID: "ac4c2ca9-4dfe-4ab7-b01f-44a56c00a972", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "6de4f4d3-c21a-49ea-9260-2ac61cd8565e", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+    </script>
+    <!-------------script end------------->
+</body>
+</html>
