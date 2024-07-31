@@ -9,78 +9,41 @@
     <link rel="stylesheet" href="/css/intro.css">
     <link rel="stylesheet" href="/css/banner.css">
     <!--Svg Css Start-->
-    <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <!--Svg Css End-->
     <link rel="stylesheet" href="/css/chill.css">
     <link rel="stylesheet" href="/css/star.css">
     <link rel="stylesheet" href="/css/testimonial.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/health.css">
-    <link rel="stylesheet" href="/css/style.css">
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <title>Serene</title>
-
-    <style>
-      #progress-container {
-        position: fixed;
-        top: 110px;
-        left: 0;
-        width: 100%;
-        height: 5px; /* Adjust the height of the progress bar */
-        background-color: #ddd; /* Background color of the progress bar container */
-        z-index: 1000; /* Make sure it's on top of other elements */
-        }
-        
-        #progress-bar {
-        height: 100%;
-        width: 0;
-        background-color: #ca3535; /* Color of the progress bar */
-        }
-    </style>
-    <style>
-      @media only screen and (max-device-width: 1366px) {
-        .parallax {
-          background-attachment: scroll;
-        }
-      }
-      .parallax {
-        /* The image used */
-        background-image: url("/images/stress-player-relief.webp");
-      
-        /* Set a specific height */
-        min-height: 500px;
-      
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      </style>
 </head>
 <body>
     <!-------------navbar start------------->
     <nav class="navbar">
-       <ul>
-            <div onclick = "reh()" href="Serene 7/templates/index.html" class="logo">Serene</div> 
-            <li><a href="/Serene 7/templates/sleep.html" class="a1">Sleep</a></li>
-            <li><a href="/Serene 7/templates/divedeep.html" class="a2">Dive Deep</a></li>
-            <li><a href="/Serene 7/templates/serenebusiness.html" class="a3">Serene Business</a></li>
-            <li><a href="/Serene 7/templates/serenehealth.html" class="a4">Serene Health</a></li>
-            <li><a href="/Serene 7/templates/premium.html" class="a5">Premium</a></li>
-            <li><a href="/Serene 7/templates/blog.html" class="a6">Articles & Blogs</a></li>
-            <li><a href="/Serene 7/templates/login.html" class="a7">Log In</a></li>
-            <li><a href="/Serene 7/templates/login.html" class="button" onclick="meh()">Try Serene For Free</a></li>
-            <div id="progress-container">
-			  <div id="progress-bar" style="background-color: #fff700;"></div>
-		  </div>
+        <ul>
+            <div onclick = "reh()" href="//index.html" class="logo">Serene</div> 
+            <li><a href="/sleep.html" class="a1">Sleep</a></li>
+            <li><a href="/divedeep.html" class="a2">Dive Deep</a></li>
+            <li><a href="/serenebusiness.html" class="a3">Serene Business</a></li>
+            <li><a href="/serenehealth.html" class="a4">Serene Health</a></li>
+            <li><a href="/premium.html" class="a5">Premium</a></li>
+            <li><a href="/blog.html" class="a6">Articles & Blogs</a></li>
+            <li><a href="/login.html" class="a7">Log In</a></li>
+            <li><a href="/login.html" class="button" onclick="meh()">Try Serene For Free</a></li>
         </ul>
     </nav>
     <!-------------navbar end------------->
 
     <section class="health">
-       <img src="/images/tree.jpg" alt="">
-       <h1>Healing Calmly</h1>
+      <img src="/images/tree.png" alt="">
+      <div style="display: flex; justify-content: center; align-items: center; margin-top: 200px;">
+        <!-- <h1>Healing Calmly</h1> -->
+      </div>
+      </div>
+    </section>
     </section>
     <section class="post">
       <h1>Lose Yourself in our most calming and Sleep Enhancing Virtual Tours</h1>
@@ -98,61 +61,67 @@
       <h1>You Can Get More Tours Like Forest Tours on Serene Premium</h1>
       <p>Sample Video of Tour</p>
       <p class="pap">A Tropical Video of Rainforest Captured at Night, <br>Enhancing the relaxation and giving deep relief from stress.</p>
-      <center class="papy">
-        <div class="b1" style="text-align: center;">
-          <video id="loopvideo" style="border-radius: 28px;" autoplay muted loop playsinline src="/video/nightvid.mov" controls="play infinite"></video>
+
+      <div class="papy">
+        <div class="b1">
+        <video id="loopvideo" style="border-radius:28px;" autoplay muted  loop playsinline src="/video/nightvid.mov" controls="play infinite"></video></div>
+        <div class="b1">
+          <video id="loopvideo" style="border-radius:28px;" autoplay muted loop playsinline src="/video/nightvid.mov" controls="play infinite"></video></div>
         </div>
-      </center>
 
-      
+        <div class="papy2">
+        <div class="b1">
+          <video id="loopvideo" style="border-radius:28px;" autoplay muted  loop playsinline src="/video/nightvid.mov" controls="play infinite"></video></div>
+        </div>
     </section>
-<br>
-<br>
-<br>
- <center style="font-size: 44px; padding: 20px; margin: 20px 0; color: rgb(240, 255, 0);">Our list of available counsellors:</center>
-    <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <img src="/Serene 7/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
-        <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Shrey Shah</h4>
-        <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
-        <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
-    </div>
-    <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <img src="/Serene 7/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
-        <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Johnson</h4>
-        <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
-        <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
-    </div>
-    <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <img src="/Serene 7/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
-        <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Ross Gellar</h4>
-        <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
-        <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
-    </div>
-    <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <img src="/Serene 7/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
-        <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Racheal Green</h4>
-        <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
-        <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
-    </div>
-    <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <img src="/Serene 7/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
-        <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Chandler M.</h4>
-        <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
-        <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
-    </div>
-    <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <img src="/Serene 7/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
-        <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Joey Tribbianni</h4>
-        <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
-        <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
-    </div>
-    <script>
-        function fun1() {
-            window.location.href = "/Serene 7/templates/couns1.html";
-        }
-    </script>
     
-
+    <br>
+    <br>
+     <center style="font-size: 44px; padding: 20px; margin: 20px 0; color: rgb(240, 255, 0);">Our list of available counsellors:</center>
+        <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <img src="/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
+            <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Shrey Shah</h4>
+            <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
+            <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
+        </div>
+        <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <img src="/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
+            <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Johnson</h4>
+            <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
+            <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
+        </div>
+        <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <img src="/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
+            <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Ross Gellar</h4>
+            <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
+            <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
+        </div>
+        <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <img src="/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
+            <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Racheal Green</h4>
+            <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
+            <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
+        </div>
+        <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <img src="/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
+            <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Chandler M.</h4>
+            <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
+            <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
+        </div>
+        <div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <img src="/images/p1.jpg" alt="person1" style="max-width: 100%; height: 50px; border-radius: 50%;">
+            <h4 style="margin-top: 10px; font-size: 18px; color: #333;">Dr. Joey Tribbianni</h4>
+            <p style="color: #666;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores illo debitis? Corporis, alias repellendus? Quaerat, magnam, in aut quasi quibusdam quia, amet ratione soluta beatae deserunt adipisci ipsa itaque.</p>
+            <button class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 3px; cursor: pointer;" onclick="fun1()">More Info..</button>
+        </div>
+        <script>
+            function fun1() {
+                window.location.href = "/couns1.html";
+            }
+        </script>
+        
+    
+    
 
 
     <!-------------footer section start------------->
@@ -281,32 +250,20 @@
     <script>
        
     function reh(){
-      window.location.href = "index.html";
+      window.location.href = "/index.html";
     }
-       document.addEventListener("DOMContentLoaded", function() {
-        const progressBar = document.getElementById("progress-bar");
-      
-        window.addEventListener("scroll", function() {
-          const scrollY = window.scrollY;
-          const windowHeight = window.innerHeight;
-          const documentHeight = document.documentElement.scrollHeight;
-      
-          const scrollPercentage = (scrollY / (documentHeight - windowHeight)) * 100;
-          progressBar.style.width = scrollPercentage + "%";
-        });
-      });
 
-       window.watsonAssistantChatOptions = {
-    integrationID: "ac4c2ca9-4dfe-4ab7-b01f-44a56c00a972", // The ID of this integration.
-    region: "us-south", // The region your integration is hosted in.
-    serviceInstanceID: "6de4f4d3-c21a-49ea-9260-2ac61cd8565e", // The ID of your service instance.
-    onLoad: async (instance) => { await instance.render(); }
-  };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-    document.head.appendChild(t);
-  });
+    window.watsonAssistantChatOptions = {
+      integrationID: "ac4c2ca9-4dfe-4ab7-b01f-44a56c00a972", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "6de4f4d3-c21a-49ea-9260-2ac61cd8565e", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function () {
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
     </script>
     <!-------------script end------------->
 </body>

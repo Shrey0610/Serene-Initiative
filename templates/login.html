@@ -6,6 +6,7 @@
 	<script defer src="/packages/login.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	
 	<link rel="stylesheet" href="/css/login.css">
 	<title>Login</title>
 </head>
@@ -24,7 +25,7 @@
 				<input type="email" name="Emailn" placeholder="Email" />
 				<input type="password" name="Passwordn" placeholder="Password" />
 				<button>Sign Up</button>
-				<a href="/Serene 7/templates/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Home</a>
+				<a href="/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Home</a>
 			</form>
 		</div>
 		<div class="form-container sign-in-container">
@@ -40,7 +41,7 @@
 				<input type="password" name="Passwordp" placeholder="Password" />
 				<a href="#">Forgot your password?</a>
 				<button type="submit">Sign In</button>
-				<a href="/Serene 7/templates/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Home</a>
+				<a href="/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Home</a>
 			</form>
 		</div>
 		<div class="overlay-container">
@@ -83,7 +84,7 @@
 						// Handle the response here and display an alert or perform actions
 						if (response.message) {
 							alert(response.message);
-							window.location.href = "/Serene 7/templates/index.html";
+							window.location.href = "/index.html";
 						} else if (response.error) {
 							alert(response.error);
 						}
