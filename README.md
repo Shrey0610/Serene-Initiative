@@ -26,7 +26,7 @@ Follow these steps to set up and run Serene on your local machine.
 - *XAMPP*: A free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.
 - *Web Browser*: Any modern web browser like Chrome, Firefox, or Safari.
 
-### UI
+## UI
 
 <img width="1440" src="https://github.com/user-attachments/assets/9b30c5a7-4358-483d-91fc-4f4131b9a916">
 
