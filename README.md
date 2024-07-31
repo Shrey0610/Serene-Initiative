@@ -28,7 +28,7 @@ Follow these steps to set up and run Serene on your local machine.
 
 ### UI
 
-![UI image](./images/UI1.png)
+<img width="1440" src="https://github.com/user-attachments/assets/9b30c5a7-4358-483d-91fc-4f4131b9a916">
 
 
 ![UI image](./images/UI2.png)
