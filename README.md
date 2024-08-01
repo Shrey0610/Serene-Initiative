@@ -24,23 +24,17 @@ Follow these steps to set up and run Serene on your local machine.
 ### Prerequisites 📋
 
 - *XAMPP*: A free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.
-- *Web Browser*: Any modern web browser like Chrome, Firefox, or Safari.
+- *IBM WatsonX Assistant*: The best way to embed a 'Rule-based' virtual assistant to your website!
+- *Web Browser*: Any modern web browser like Chrome, Firefox, or Safari.   
+
 
 ## UI
 
 <img width="1440" src="https://github.com/user-attachments/assets/9b30c5a7-4358-483d-91fc-4f4131b9a916">
-
-
-![UI image](./images/UI2.png)
-
-
-![UI image](./images/UI3.png)
-
-
-![UI image](./images/UI4.png)
-
-
-![UI image](./images/UI5.png)
+<img width="1440" alt="Screenshot 2024-07-31 at 18 31 02" src="https://github.com/user-attachments/assets/1eb68bbc-c061-4a3b-b65b-123efd3e3b5c">
+<img width="1440" alt="Screenshot 2024-07-31 at 18 54 25" src="https://github.com/user-attachments/assets/95887aa3-748e-4608-b86e-2c57850ea402">
+<img width="1440" alt="Screenshot 2024-07-31 at 18 54 33" src="https://github.com/user-attachments/assets/d0a193a1-c260-42c0-a6cc-f54bfb3d50c9">
+<img width="1440" alt="Screenshot 2024-08-01 at 23 33 44" src="https://github.com/user-attachments/assets/e5237bb4-6f91-427f-9c76-941b62f32160">
 
 
 ### Installation Steps 🔧
@@ -54,7 +48,7 @@ Follow these steps to set up and run Serene on your local machine.
 bash
     ```Open XAMPP and start the Apache server.
     Move the cloned repository to the htdocs folder in the XAMPP directory.
-    Open your web browser and go to http://localhost/Serene/index.html.
+    Open your web browser and go to http://localhost/templates/index.html.
 
 3. *Explore Website*
 bash
