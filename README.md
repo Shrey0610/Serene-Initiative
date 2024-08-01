@@ -45,14 +45,12 @@ Follow these steps to set up and run Serene on your local machine.
    
 
 2. *Start Website*
-bash
     ```Open XAMPP and start the Apache server.
     Move the cloned repository to the htdocs folder in the XAMPP directory.
-    Open your web browser and go to http://localhost/templates/index.html.
+    Open your web browser and go to http://localhost/templates/index.html.```
 
 3. *Explore Website*
-bash
     ```Explore the website and enjoy the calming experience.
     https://serene-initiative.netlify.app/
-
+   ```
 4. *Note: Connect the Database created in php/myadmin using myadminportal* 
