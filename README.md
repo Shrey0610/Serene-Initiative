@@ -49,7 +49,7 @@ Follow these steps to set up and run Serene on your local machine.
     Open your web browser and go to http://localhost/templates/index.html.
 
 3. *Explore Website*
-    ```Explore the website and enjoy the calming experience.
-       [Serene-Initiative](https://serene-initiative.netlify.app/)
-   ```
+    Explore the website and enjoy the calming experience.
+    [Serene-Initiative](https://serene-initiative.netlify.app/)
+
 4. *Note: Connect the Database created in php/myadmin using myadminportal* 
