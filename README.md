@@ -42,8 +42,7 @@ Follow these steps to set up and run Serene on your local machine.
 1. *Clone the Repository*
    ```
    git clone https://github.com/Shrey0610/Serene-Initiative.git
-   
-
+   ```
 2. *Start Website*
     ```Open XAMPP and start the Apache server.
     Move the cloned repository to the htdocs folder in the XAMPP directory.
