@@ -40,7 +40,7 @@ Follow these steps to set up and run Serene on your local machine.
 ### Installation Steps 🔧
 
 1. *Clone the Repository*
-   bash
+   ```
    git clone https://github.com/Shrey0610/Serene-Initiative.git
    
 
