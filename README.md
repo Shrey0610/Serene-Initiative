@@ -8,6 +8,7 @@ Serene: Your Gateway to Tranquility. Dive into a serene environment designed to 
 ## Overview 🌟
 
 Serene is a web-based platform that aims to provide users with a peaceful and relaxing experience. Whether you are looking to reduce stress, improve your focus, or simply unwind, Serene has something for you. Built using HTML, CSS, JavaScript, and PHP, Serene is easy to set up and run locally.
+Our website is an important initiative towards reaching to the sustainable goals of- <a href='https://sdgs.un.org/goals/goal3' target='_blank'> ’Good Health and Well-Being’ </a>, <a href='https://sdgs.un.org/goals/goal8' target='_blank'> ‘Decent Work and economic growth' </a>, <a href='https://sdgs.un.org/goals/goal11' target='_blank'>’Sustainable cities and communities’ </a> and <a href='https://sdgs.un.org/goals/goal17' target='_blank'>‘Partnerships for the Goals’ </a>.
 
 ## Features 🌈
 
