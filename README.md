@@ -7,8 +7,8 @@ Serene: Your Gateway to Tranquility. Dive into a serene environment designed to 
 
 ## Overview 🌟
 
-Serene is a web-based platform that aims to provide users with a peaceful and relaxing experience. Whether you are looking to reduce stress, improve your focus, or simply unwind, Serene has something for you. Built using HTML, CSS, JavaScript, and PHP, Serene is easy to set up and run locally.
-Our website is an important initiative towards reaching to the sustainable goals of- <a href='https://sdgs.un.org/goals/goal3' target='_blank'> ’Good Health and Well-Being’ </a>, <a href='https://sdgs.un.org/goals/goal8' target='_blank'> ‘Decent Work and economic growth' </a>, <a href='https://sdgs.un.org/goals/goal11' target='_blank'>’Sustainable cities and communities’ </a> and <a href='https://sdgs.un.org/goals/goal17' target='_blank'>‘Partnerships for the Goals’ </a>.
+Serene is a web-based platform that aims to provide users with a **peaceful** and **relaxing** experience. Whether you are looking to reduce stress, improve your focus, or simply unwind, Serene has something for you. Built using HTML, CSS, JavaScript, and PHP, Serene is easy to set up and run locally.
+Our website is an important initiative towards reaching to the **sustainable goals** of- <a href='https://sdgs.un.org/goals/goal3' target='_blank'> ’Good Health and Well-Being’ </a>, <a href='https://sdgs.un.org/goals/goal8' target='_blank'> ‘Decent Work and economic growth' </a>, <a href='https://sdgs.un.org/goals/goal11' target='_blank'>’Sustainable cities and communities’ </a> and <a href='https://sdgs.un.org/goals/goal17' target='_blank'>‘Partnerships for the Goals’ </a>.
 
 ## Features 🌈
 
@@ -25,7 +25,7 @@ Follow these steps to set up and run Serene on your local machine.
 ### Prerequisites 📋
 
 - *XAMPP*: A free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.
-- *IBM WatsonX Assistant*: The best way to embed a 'Rule-based' virtual assistant to your website!
+- ***IBM WatsonX Assistant***: The best way to embed a 'Rule-based' virtual assistant to your website!
 - *Web Browser*: Any modern web browser like Chrome, Firefox, or Safari.   
 
 
@@ -53,9 +53,9 @@ Follow these steps to set up and run Serene on your local machine.
     ```Open XAMPP and start the Apache server.
     Move the cloned repository to the htdocs folder in the XAMPP directory.
     Open your web browser and go to http://localhost/templates/index.html.
-
-3. *Explore Website*
-    Explore the website and enjoy the calming experience.
+    ```
+    
+3. *Explore the Website* and enjoy the calming experience: 
     [Serene-Initiative](https://serene-initiative.netlify.app/)
 
 4. *Note: Connect the Database created in php/myadmin using myadminportal* 
