@@ -30,7 +30,6 @@ Follow these steps to set up and run Serene on your local machine.
 
 ## UI
 
-<img width="1440" src="https://github.com/user-attachments/assets/9b30c5a7-4358-483d-91fc-4f4131b9a916">
 <img width="1440" alt="Screenshot 2024-07-31 at 18 31 02" src="https://github.com/user-attachments/assets/1eb68bbc-c061-4a3b-b65b-123efd3e3b5c">
 <img width="1440" alt="Screenshot 2024-07-31 at 18 54 25" src="https://github.com/user-attachments/assets/95887aa3-748e-4608-b86e-2c57850ea402">
 <img width="1440" alt="Screenshot 2024-07-31 at 18 54 33" src="https://github.com/user-attachments/assets/d0a193a1-c260-42c0-a6cc-f54bfb3d50c9">
