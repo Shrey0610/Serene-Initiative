@@ -18,6 +18,10 @@ Our website is an important initiative towards reaching to the **sustainable goa
 - *User-Friendly Interface*: Enjoy a seamless and intuitive user experience.
 - *3D Environment*: Drive into nature using our 3D environment.
 
+ ### Watch how the IBM WatsonX Assistant work here ⬇️ 
+https://github.com/user-attachments/assets/498e26c4-7b9e-4ba2-ab2b-e9d8e5098271
+
+
 ## Getting Started 🚀
 
 Follow these steps to set up and run Serene on your local machine.
@@ -31,14 +35,16 @@ Follow these steps to set up and run Serene on your local machine.
 
 ## UI
 
+
+
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/1eb68bbc-c061-4a3b-b65b-123efd3e3b5c" alt="Image 1" width="500" height="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/95887aa3-748e-4608-b86e-2c57850ea402" alt="Image 2" width="500" height="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/ed260677-6e42-45eb-baa7-9dda1771d69c" alt="Image 1" width="500" height="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/95887aa3-748e-4608-b86e-2c57850ea402" alt="Image 2" width="500" height="400"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/d0a193a1-c260-42c0-a6cc-f54bfb3d50c9" alt="Image 3" width="500" height="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/e5237bb4-6f91-427f-9c76-941b62f32160" alt="Image 4" width="500" height="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/d0a193a1-c260-42c0-a6cc-f54bfb3d50c9" alt="Image 3" width="500" height="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/e5237bb4-6f91-427f-9c76-941b62f32160" alt="Image 4" width="500" height="400"></td>
   </tr>
 </table>
 
