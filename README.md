@@ -33,12 +33,12 @@ Follow these steps to set up and run Serene on your local machine.
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/1eb68bbc-c061-4a3b-b65b-123efd3e3b5c" alt="Image 1" width="400" height="400"></td>
-    <td><img src="https://github.com/user-attachments/assets/95887aa3-748e-4608-b86e-2c57850ea402" alt="Image 2" width="400" height="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/1eb68bbc-c061-4a3b-b65b-123efd3e3b5c" alt="Image 1" width="500" height="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/95887aa3-748e-4608-b86e-2c57850ea402" alt="Image 2" width="500" height="500"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/d0a193a1-c260-42c0-a6cc-f54bfb3d50c9" alt="Image 3" width="400" height="400"></td>
-    <td><img src="https://github.com/user-attachments/assets/e5237bb4-6f91-427f-9c76-941b62f32160" alt="Image 4" width="400" height="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/d0a193a1-c260-42c0-a6cc-f54bfb3d50c9" alt="Image 3" width="500" height="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/e5237bb4-6f91-427f-9c76-941b62f32160" alt="Image 4" width="500" height="500"></td>
   </tr>
 </table>
 
